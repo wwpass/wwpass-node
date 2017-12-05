@@ -1,0 +1,22 @@
+{
+  "name": "wwpass-node",
+  "version": "1.0.0",
+  "description": "WWPass Service Provider API Client for Node.js",
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "./node_modules/.bin/eslint test/*.js lib/*.js"
+  },
+  "dependencies": {
+    "arraybuffer-to-string": "^1.0.1",
+    "deep-extend": "^0.5.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "nock": "^9.1.4",
+    "mocha": "^4.0.1"
+  },
+  "main": "lib/wwpass",
+  "author": "Kirill Kotyagin <k.kotyagin@wwpass.com> (https://wwpass.com)",
+  "license": "ISC"
+}
