@@ -18,5 +18,9 @@
   },
   "main": "lib/wwpass",
   "author": "Kirill Kotyagin <k.kotyagin@wwpass.com> (https://wwpass.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wwpass/wwpass-node.git"
+  }
 }
